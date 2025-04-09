@@ -55,6 +55,7 @@ export default function Index() {
               renderItem={({ item }) => <></>}
               keyExtractor={(item) => item.id.toString()}
               numColumns={3}
+
               columnWrapperStyle={{
                 justifyContent: "flex-start",
                 gap: 20,
